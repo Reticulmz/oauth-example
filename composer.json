@@ -1,0 +1,14 @@
+{
+    "name": "root/ripple-oauth-test",
+    "type": "project",
+    "require": {
+        "league/oauth2-client": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morgan Bazalgette",
+            "email": "the@howl.moe"
+        }
+    ]
+}
