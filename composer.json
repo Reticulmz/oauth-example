@@ -1,5 +1,5 @@
 {
-    "name": "root/ripple-oauth-test",
+    "name": "root/ripple-oauth-example",
     "type": "project",
     "require": {
         "league/oauth2-client": "^2.2"
