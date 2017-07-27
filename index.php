@@ -4,11 +4,11 @@ require __DIR__ . '/vendor/autoload.php';
 $provider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => "CLIENT ID",     // Create your client on ripple.moe/dev/apps
     'clientSecret'            => "CLIENT SECRET",
-    'redirectUri'             => 'http://your-website.com/',
+    'redirectUri'             => 'https://your-website.com/',
 
-    'urlAuthorize'            => 'http://hanayo.org/oauth/authorize',
-    'urlAccessToken'          => 'http://hanayo.org/oauth/token',
-    'urlResourceOwnerDetails' => 'http://hanayo.org/api/v1/ping',
+    'urlAuthorize'            => 'https://ripple.moe/oauth/authorize',
+    'urlAccessToken'          => 'https://ripple.moe/oauth/token',
+    'urlResourceOwnerDetails' => 'https://ripple.moe/api/v1/ping',
 
     'scopeSeparator'          => ' ',
     'scopes'                  => ['read_confidential'],
